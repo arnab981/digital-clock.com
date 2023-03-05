@@ -22,7 +22,7 @@
     hoursEl.innerText = h;
     minutesEl.innerText = m;
     secondsEl.innerText = s;
-    hoursEl.innerText = h;
+    ampmEl.innerText = ampm;
     setTimeout(()=>{
         updateclock()
     }, 1000)
